@@ -1,6 +1,6 @@
 # UK Bank Customers Analysis
 
-![Insert Dashboard Screenshot Here]()
+![Insert Dashboard Screenshot Here](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/P6-UK-Bank-Customers.png)
 
 ---
 
@@ -77,8 +77,6 @@ Key questions explored:
 - Trimmed whitespaces and applied consistent capitalization across text fields  
 - Verified and enforced correct data types (numeric, date, text)  
 
-![Insert Screenshot of Power Query Steps Here]()
-
 ---
 
 ## Data Modeling
@@ -91,9 +89,9 @@ A **star schema** model was developed with `Customer` ID acting as the primary k
   Fields: Customer ID, Date Joined, Balance  
 
 **Relationships:**  
-- One-to-many relationship between Customer Dim and Account Details (via Customer ID)
+- One-to-One relationship between Customer Dim and Account Details (via Customer ID)
 
-![Insert Screenshot of Data Modeling View Here]
+![Insert Screenshot of Data Modeling View Here](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/data-model.PNG)
 
 ---
 
@@ -107,7 +105,7 @@ Each visualization directly answers questions from the problem statement:
 - **Number of Customers:** `4,014`
 - **Average Bank Balance:** `£39,766.45`
 
-![Insert Screenshot of KPIs]()
+![Insert Screenshot of KPIs](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/kpis.png)
 
 ---
 
@@ -121,7 +119,7 @@ Each visualization directly answers questions from the problem statement:
 | Connor North       | £172,085.48       |
 | Sebastian Arnold   | £161,517.82       |
 
-![Insert Screenshot]()
+![Insert Screenshot](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/top-5-customers.png)
 
 ---
 
@@ -134,7 +132,7 @@ Each visualization directly answers questions from the problem statement:
 | Q3      | 1,353           |
 | Q4      | 1,613           |
 
-![Insert Screenshot]()
+![Insert Screenshot](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/Quarterly-acc-openings.png)
 
 ---
 
@@ -147,7 +145,7 @@ Each visualization directly answers questions from the problem statement:
 | Wales            | 520                |
 | Northern Ireland | 211                |
 
-![Insert Screenshot]()
+![Insert Screenshot](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/customer-concen.png)
 
 ---
 
@@ -158,7 +156,7 @@ Each visualization directly answers questions from the problem statement:
 | Male   | £86,638,989.30    | 54.28%      |
 | Female | £72,983,534.07    | 45.72%      |
 
-![Insert Screenshot]()
+![Insert Screenshot](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/male-female-ratio.png)
 
 ---
 
@@ -170,7 +168,7 @@ Each visualization directly answers questions from the problem statement:
 | Blue Collar        | £41,334,055.50    |
 | Other              | £40,222,584.83    |
 
-![Insert Screenshot]()
+![Insert Screenshot](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/images/job-classification.png)
 
 ---
 
@@ -200,6 +198,10 @@ Each visualization directly answers questions from the problem statement:
 - **Segment Expansion:** Explore incentives or tailored services for underrepresented regions like Wales and Northern Ireland.
 - **Seasonal Promotions:** Take advantage of the Q4 spike with limited-time offers or referral programs.
 - **Job-Specific Products:** Introduce premium products or loyalty programs for white-collar workers to increase retention.
+
+---
+
+> _Ready to explore the dashboard? Download the [Power BI file](https://github.com/dougieboat/UK-Bank-Customers-Analysis/blob/e7bb905314a14bee18fd9b657d2eb82550108b8d/P6-UK-Bank-Customers.pbix) and dive into the insights!_
 
 ---
 
